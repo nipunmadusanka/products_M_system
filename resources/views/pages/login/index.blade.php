@@ -51,10 +51,11 @@ data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" ari
                                 <input type="email" class="form-control" name="email" id="Email" placeholder="Email address" required>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-20">
                             <div class="form-group">
-                                <label>Password</label>
+                                <label>Password </label>
                                 <input type="password" class="form-control" name="password" placeholder="Password" required autocomplete="current-password">
+                                <small>Password must contain number, simple letter, capital letter and min 6 character</small>
                             </div>
                         </div>
                         <div class="modal-footer">

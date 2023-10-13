@@ -21,7 +21,7 @@ class Product extends Controller
         $request->validate([
             'name'         =>   'required',
             'email'        =>   'required|email|unique:users',
-            'password'     =>   'required',
+            'password'     =>   'required|min:6|regex:/[0-9]/|regex:/[a-z]/|regex:/[A-Z]/',
         ]);
 
         $add = new User();
